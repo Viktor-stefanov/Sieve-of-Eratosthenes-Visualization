@@ -38,9 +38,9 @@ def blit_text(win, s_width, s_height, hovered_colors, chosen_color_idx):
     green_square = pygame.image.load(green_path)
     red_square = pygame.image.load(red_path)
 
-    win.blit(grey_square, (s_width * 0.000001, s_height // 2))
-    win.blit(green_square, (s_width // 2.9, s_height // 1.95))
-    win.blit(red_square, (s_width // 1.55, s_height // 2))
+    win.blit(grey_square, (s_width // 6.5, s_height // 2.05))
+    win.blit(green_square, (s_width // 2.8, s_height // 2.15))
+    win.blit(red_square, (s_width // 1.55, s_height // 2.17))
     # below are the colors of the text currently hovered over
     if hovered_colors is None:
         hovered_colors = [WHITE, WHITE, WHITE]
